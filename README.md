@@ -58,6 +58,7 @@ And get instant predictions + confidence scores + Amazon link!
 ├── tokenizer_config.json
 ├── label_map.json
 ├── genre_model_tf/
+├── book_genre_chatbot.ipynb
 └── README.md
 ```
 
