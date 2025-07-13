@@ -1,7 +1,7 @@
 # Book Genre Prediction Chatbot
 
 [![Hugging Face Space](https://img.shields.io/badge/HuggingFace-Live_App-yellow?logo=huggingface)](https://huggingface.co/spaces/Deepesh120/deepesh-book-genre-bot)
-[![View on GitHub](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/Deepesh456/book-genre-predictor-chatbot)
+[![View on GitHub](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/Deepesh456/book_genre_predictor_chatbot)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-success?logo=streamlit)](https://huggingface.co/spaces/Deepesh120/deepesh-book-genre-bot)
 
 > A real-time chatbot that predicts a book's genre from its title using an LSTM deep learning model. Built with TensorFlow, deployed using Streamlit, and hosted live on Hugging Face Spaces.
