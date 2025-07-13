@@ -1,12 +1,12 @@
 import streamlit as st
-import tensorflow as tf
+import keras
 import pickle
 import json
 import numpy as np
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras.preprocessing.sequence import pad_sequences
 
 # Load model
-model = tf.keras.models.load_model("genre_model.h5")
+model = keras.models.load_model("genre_model.h5")
 
 # Load tokenizer
 with open("tokenizer.pkl", "rb") as f:
@@ -49,5 +49,3 @@ if user_input:
 
     for genre, prob in top_probs:
         st.write(f"{genre}: {prob:.2f}")
-        
-
