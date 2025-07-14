@@ -16,12 +16,12 @@ Try it here:
 
 ```
 
-- 🔍 Predict book genres using an LSTM model  
-- 📊 Visualize top 5 genre probabilities  
-- 📚 Get 5 book recommendations per genre (with “Show More”)  
-- 🔗 Instant Amazon links for each book  
-- 🎛️ Dual functionality: Genre prediction **or** Top 10 books by genre  
-- 🎨 Cozy bookstore UI with background image and styled input
+- Predict book genres using an LSTM model  
+- Visualize top 5 genre probabilities  
+- Get 5 book recommendations per genre (with “Show More”)  
+- Instant Amazon links for each book  
+- Dual functionality: Genre prediction **or** Top 10 books by genre  
+- Cozy bookstore UI with background image and styled input
 
 ```
 
@@ -29,11 +29,11 @@ Try it here:
 
 ```
 
-1. User inputs book title or genre
-2. Title is tokenized using trained Keras tokenizer
-3. Model predicts genre via a TensorFlow SavedModel
-4. Top 5 class probabilities are sorted and visualized
-5. Metadata is matched for Amazon link & book suggestions
+- User inputs book title or genre
+- Title is tokenized using trained Keras tokenizer
+- Model predicts genre via a TensorFlow SavedModel
+- Top 5 class probabilities are sorted and visualized
+- Metadata is matched for Amazon link & book suggestions
 
 ```
 
@@ -64,11 +64,9 @@ Try it here:
 
 ## Sample Output
 
-```
-## Sample Output
-
 ### Option 1: Check Genre of a Book
 
+```
 Input: The Art of Quantum Computing
 
 📖 Predicted Genre: Arts, Film & Photography  
@@ -87,11 +85,14 @@ Religion: 0.08
 🔹 The Photographer's Eye — ⭐ 4.5  
 🔹 Drawing on the Right Side of the Brain — ⭐ 4.4
 
+```
+
 ### 📘 Option 2: Get Top Books by Genre
 
+```
 Input Genre: Romance
 
-🎯 Top Books in Romance:
+🎯Top Books in Romance:
 🔹 Me Before You — ⭐ 4.7  
 🔹 The Notebook — ⭐ 4.6  
 🔹 It Ends With Us — ⭐ 4.5  
